@@ -1,6 +1,7 @@
 package com.example.questadvancelayout_021
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -36,7 +37,9 @@ fun AktivitasPertama(){
             colors = CardDefaults.cardColors(
                 containerColor = Color.Black
             )){
+            Row() {
 
+            }
         }
     }
 }
