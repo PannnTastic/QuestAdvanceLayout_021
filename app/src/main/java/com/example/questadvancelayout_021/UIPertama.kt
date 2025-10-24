@@ -43,15 +43,17 @@ fun AktivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(
                 containerColor = Color.Black
             )){
-            Row() {
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
                 val logo = painterResource(id = R.drawable.logo)
                 Image(
                     painter = logo,
                     contentDescription = null,
-                    modifier = Modifier.size(size = 100.dp)
+                    modifier = Modifier.size(size = 150.dp)
                         .padding(all = 5.dp)
                 )
-                Spacer(modifier = Modifier.width(width = 30.dp))
+                Spacer(modifier = Modifier.width(width = 1.dp))
                 Column() {
                     Text(
                         text = stringResource(id = R.string.name),
