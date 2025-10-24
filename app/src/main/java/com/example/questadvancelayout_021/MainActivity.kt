@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestAdvanceLayout_021Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    AktivitasPertama(
+                    Profil(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
