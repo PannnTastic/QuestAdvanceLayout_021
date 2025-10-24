@@ -8,4 +8,8 @@
     <string name="phone">+62821234567</string>
     <string name="ig">"@pannnyatiga_"</string>
     <string name="bio">Saya seorang Junior Back-End Developer</string>
+    <string name="menu1">Security</string>
+    <string name="menu2">Projects</string>
+    <string name="menu3">About Me</string>
+    <string name="logout">Logout</string>
 </resources>
