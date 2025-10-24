@@ -68,6 +68,97 @@ fun AktivitasPertama(modifier: Modifier){
                         color = Color.LightGray,
                         modifier = Modifier.padding(top = 10.dp)
                     )
+                    Text(
+                        text = stringResource(id = R.string.phone),
+                        fontSize = 15.sp,
+                        color = Color.LightGray,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
+                }
+            }
+        }
+        Card(modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.hsl(227f, 1f, 0.31f)
+
+            )) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                val logo = painterResource(id = R.drawable.logo)
+                Image(
+                    painter = logo,
+                    contentDescription = null,
+                    modifier = Modifier.size(size = 150.dp)
+                        .padding(all = 5.dp)
+
+                )
+                Spacer(modifier = Modifier.width(width = 1.dp))
+                Column() {
+                    Text(
+                        text = stringResource(id = R.string.name),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.address),
+                        fontSize = 15.sp,
+                        color = Color.Cyan,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.phone),
+                        fontSize = 15.sp,
+                        color = Color.LightGray,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
+                }
+            }
+        }
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(fraction = 1f)
+                .padding(all = 12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.hsl(118f, 0.85f, 0.18f)
+
+            )
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                val logo = painterResource(id = R.drawable.logo)
+                Image(
+                    painter = logo,
+                    contentDescription = null,
+                    modifier = Modifier.size(size = 150.dp)
+                        .padding(all = 5.dp)
+                )
+                Spacer(modifier = Modifier.width(width = 1.dp))
+                Column() {
+                    Text(
+                        text = stringResource(id = R.string.name),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.address),
+                        fontSize = 15.sp,
+                        color = Color.Cyan,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.phone),
+                        fontSize = 15.sp,
+                        color = Color.LightGray,
+                        modifier = Modifier.padding(top = 5.dp)
+                    )
                 }
             }
         }
